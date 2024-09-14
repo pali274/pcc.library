@@ -10,14 +10,37 @@
     <header>
         <h1>مكتبة النادي الثقافي الفلسطيني</h1>
         <div style="text-align: center; margin-top: 20px;">
-            <input type="text" id="searchBar" onkeyup="searchBooks()" placeholder="Search for books..." style="width: 80%; padding: 12px; font-size: 18px;">
+            <input type="text" id="search-bar" placeholder="Search...">
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="concordia-books.html">Concordia Library</a></li>
-                <li><a href="mcgill-books.html">McGill Library</a></li>
-                <li><a href="online-books.html">Online Books</a></li>
+                <nav>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Books</a>
+                            <div class="dropdown-content">
+                                <a href="concordia-books.html">Concordia Library</a>
+                                <a href="mcgill-books.html">McGill Library</a>
+                                <a href="online-books.html">Online Books</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Films</a>
+                            <div class="dropdown-content">
+                                <a href="concordia-books.html">Movies</a>
+                                <a href="mcgill-books.html">Series</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Articles</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Notable Figures</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
             </ul>
         </nav>
     </header>

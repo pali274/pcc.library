@@ -1,4 +1,4 @@
-/* Base styling for the entire page */
+/* Global Styles */
 body {
     font-family: 'Arial Black', sans-serif;
     margin: 0;
@@ -9,14 +9,13 @@ body {
     background-repeat: repeat; /* Do not repeat the image */
 }
 
-
-/* Header styling */
+/* Header with Tatreez pattern */
 header {
     background-image: url('../images/tatreez.jpg'); /* Example: Tatreez pattern */
     background-repeat: repeat-x; /* Repeat horizontally */
     background-size: 20%; /* You can adjust how much of the image to repeat */
     padding: 2rem;
-    color: #e3d0a4;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -54,6 +53,7 @@ header h1 {
     color: #555; /* Style the placeholder text */
 }
 
+
 header h2 {
         font-family: 'Amiri', serif; /* Traditional Arabic font */
         font-size: 2.5rem;
@@ -61,7 +61,7 @@ header h2 {
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Soft shadow to mimic ink */
         padding: 10px;
-        background-color: #e3d0a4; /* Light beige background to resemble old paper */
+        background-color: #f7f1e3; /* Light beige background to resemble old paper */
         border: 2px solid #4f3d21; /* Dark sepia border */
         border-radius: 5px;
         margin: 20px 0;
@@ -143,7 +143,7 @@ nav ul li a:hover {
 
 /* Jerusalem Background for Main Section */
 main {
-    background-image: url('images/jerusalem1.jpeg'); /* Add your Jerusalem image */
+    background-image: url('images/jerusalem-bg.jpg'); /* Add your Jerusalem image */
     background-attachment: fixed; /* Scrolls with the page */
     background-size: cover;
     color: #ffffff;
@@ -157,12 +157,11 @@ main {
     margin-block-start:-4%;
 }
 
-
-.intro h2 { 
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        text-align: center;
-        color: #f9f9e6; /* Olive green for headers */
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #f9f9e6; /* Olive green for headers */
 }
 
 .intro p {
@@ -211,47 +210,21 @@ main {
 /* Footer with subtle pattern */
 footer {
     background-image: url('../images/tatreez.jpg'); /* Example: Tatreez pattern */
-    background-repeat: repeat; /* Repeat horizontally */
+    background-repeat: repeat-x; /* Repeat horizontally */
     background-size: 20%; /* You can adjust how much of the image to repeat */
     padding: 2rem;
     color: #ffffff;
     text-align: center;
 }
 
-/* Default link style (no underline initially) */
-.catalog ul li a {
-    color: #333333; /* Default color for all links */
-    text-decoration: none; /* No underline by default */
-}
-
-/* Hover effect for all links (underline appears on hover) */
-.catalog ul li a:hover {
-    text-decoration: underline; /* Show underline when hovering */
-    text-decoration-thickness: 2px;
-}
-
-/* Change color when the link is clicked (active state) */
-a:active {
-    color: #333333; /* Orange-red color when clicked */
-    text-decoration: underline; /* Underline during click */
-    text-decoration-thickness: 2px;
-}
-
-/* Change color when the link has been clicked (visited state) */
-.catalog ul li a:visited {
-    color: #333333; /* Tomato color for visited links */
-    text-decoration: none; /* No underline for visited links */
-}
-
 .catalog ul li b {
-    font-size: 13px; /* Adjust the size to make the text smaller */
+    font-size: 14px; /* Adjust the size to make the text smaller */
     color: #ffffff; /* Keep the text white */
     font-weight: normal;
-    margin-bottom: 35%;
 }
 
 .book-cover {
-    width: 50%;  /* Adjust the width to be 50% of its container */
+    width: 60%;  /* Adjust the width to be 50% of its container */
     height: auto;
 }
 
@@ -260,10 +233,8 @@ a:active {
 /* Style for the book title */
 .book-title {
     color: #333333; /* Change the title color to black */
-    font-size: 16px; /* Adjust the font size as needed */
+    font-size: 17px; /* Adjust the font size as needed */
     font-weight: bold; /* Keep the bold style */
     margin-top: 0rem; /* Optional: Add some space above the title */
     margin-bottom: -1rem;
 }
-
-
