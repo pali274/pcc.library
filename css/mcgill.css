@@ -1,0 +1,202 @@
+/* Base styling for the entire page */
+body {
+    font-family: 'Arial Black', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/pali2.jpg'); /* Path to your image */
+     /* Make the background cover the entire page */
+    background-position: top; /* Center the background image */
+    background-repeat: repeat; /* Do not repeat the image */
+}
+
+
+/* Header styling */
+header {
+    background-image: url('../images/tatreez.jpg'); /* Example: Tatreez pattern */
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-size: 20%; /* You can adjust how much of the image to repeat */
+    padding: 2rem;
+    color: #e3d0a4;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Amiri', serif; /* Traditional Arabic font */
+        font-size: 2.5rem;
+        color: #4f3d21; /* Dark sepia color for vintage effect */
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Soft shadow to mimic ink */
+        padding: 10px;
+        background-color: #e3d0a4; /* Light beige background to resemble old paper */
+        border: 2px solid #4f3d21; /* Dark sepia border */
+        border-radius: 5px;
+        margin: 20px 0;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+
+header h2 {
+        font-family: 'Amiri', serif; /* Traditional Arabic font */
+        font-size: 2.5rem;
+        color: #4f3d21; /* Dark sepia color for vintage effect */
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Soft shadow to mimic ink */
+        padding: 10px;
+        background-color: #e3d0a4; /* Light beige background to resemble old paper */
+        border: 2px solid #4f3d21; /* Dark sepia border */
+        border-radius: 5px;
+        margin: 20px 0;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333333; /* Dark grey nav background */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #828d3c; /* Olive green hover */
+}
+
+/* Jerusalem Background for Main Section */
+main {
+    background-image: url('images/jerusalem1.jpeg'); /* Add your Jerusalem image */
+    background-attachment: fixed; /* Scrolls with the page */
+    background-size: cover;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+.intro {
+    background-color: #810404e1; /* Dark transparent overlay */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+
+.intro h2 { 
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: #f9f9e6; /* Olive green for headers */
+}
+
+.intro p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Catalog Section with subtle Tatreez border */
+.catalog ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.catalog ul li {
+    background-color: #828d3cf0; /* White background for books */
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid #cc000000; /* Deep red border (Tatreez accent) */
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    vertical-align: top;
+    display: inline-block;
+    height: 25rem;/* Set a minimum height for all items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.catalog h3 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff; /* Dark grey nav background */
+    padding: 1.2rem;
+    text-align: center;
+    color: #990000; /* Deep red for headers */
+}
+
+/* Footer with subtle pattern */
+footer {
+    background-image: url('../images/tatreez.jpg'); /* Example: Tatreez pattern */
+    background-repeat: repeat; /* Repeat horizontally */
+    background-size: 20%; /* You can adjust how much of the image to repeat */
+    padding: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Default link style (no underline initially) */
+.catalog ul li a {
+    color: #333333; /* Default color for all links */
+    text-decoration: none; /* No underline by default */
+}
+
+/* Hover effect for all links (underline appears on hover) */
+.catalog ul li a:hover {
+    text-decoration: underline; /* Show underline when hovering */
+    text-decoration-thickness: 2px;
+}
+
+/* Change color when the link is clicked (active state) */
+a:active {
+    color: #333333; /* Orange-red color when clicked */
+    text-decoration: underline; /* Underline during click */
+    text-decoration-thickness: 2px;
+}
+
+/* Change color when the link has been clicked (visited state) */
+.catalog ul li a:visited {
+    color: #333333; /* Tomato color for visited links */
+    text-decoration: none; /* No underline for visited links */
+}
+
+.catalog ul li b {
+    font-size: 12px; /* Adjust the size to make the text smaller */
+    color: #ffffff; /* Keep the text white */
+    font-weight: normal;
+}
+
+.book-cover {
+    width: 40%;  /* Adjust the width to be 50% of its container */
+    height: auto;
+}
+
+
+
+/* Style for the book title */
+.book-title {
+    color: #333333; /* Change the title color to black */
+    font-size: 13px; /* Adjust the font size as needed */
+    font-weight: bold; /* Keep the bold style */
+    margin-top: 0rem; /* Optional: Add some space above the title */
+    margin-bottom: -1rem;
+}
+
+
