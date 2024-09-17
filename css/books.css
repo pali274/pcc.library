@@ -78,6 +78,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    margin-top: -20px;
     margin-bottom: 20px;
     justify-content: center;
     background-color: #333333; /* Dark grey nav background */
@@ -154,7 +155,7 @@ main {
     background-color: #810404e1; /* Dark transparent overlay */
     padding: 2rem;
     border-radius: 8px;
-    margin-block-start:-4%;
+    margin-block-start:-1%;
 }
 
 
@@ -222,6 +223,8 @@ footer {
 .catalog ul li a {
     color: #333333; /* Default color for all links */
     text-decoration: none; /* No underline by default */
+    margin-bottom: 70%;
+    font-size: 45px;
 }
 
 /* Hover effect for all links (underline appears on hover) */
@@ -239,19 +242,19 @@ a:active {
 
 /* Change color when the link has been clicked (visited state) */
 .catalog ul li a:visited {
-    color: #333333; /* Tomato color for visited links */
+    color: #f9f4f4; /* Tomato color for visited links */
     text-decoration: none; /* No underline for visited links */
 }
 
 .catalog ul li b {
-    font-size: 13px; /* Adjust the size to make the text smaller */
+    font-size: 1px; /* Adjust the size to make the text smaller */
     color: #ffffff; /* Keep the text white */
     font-weight: normal;
-    margin-bottom: 35%;
+    margin-bottom: 0%;
 }
 
 .book-cover {
-    width: 50%;  /* Adjust the width to be 50% of its container */
+    width: 100%;  /* Adjust the width to be 50% of its container */
     height: auto;
 }
 
@@ -259,11 +262,11 @@ a:active {
 
 /* Style for the book title */
 .book-title {
-    color: #333333; /* Change the title color to black */
+    color: #f0e7e7; /* Change the title color to black */
     font-size: 16px; /* Adjust the font size as needed */
     font-weight: bold; /* Keep the bold style */
-    margin-top: 0rem; /* Optional: Add some space above the title */
-    margin-bottom: -1rem;
+    margin-top: rem; /* Optional: Add some space above the title */
+    margin-bottom: 3rem;
 }
 
 
