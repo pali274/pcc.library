@@ -140,6 +140,7 @@ nav ul li a:hover {
 .dropdown:hover .dropbtn {
     background-color: #555;
 }
+
 /* Jerusalem Background for Main Section */
 main {
     background-image: url('images/jerusalem1.jpeg'); /* Add your Jerusalem image */
@@ -173,7 +174,11 @@ main {
 .catalog ul {
     list-style-type: none;
     padding: 0;
-    margin: 2rem 0;
+    margin:  0;
+    display: flex;
+    flex-wrap: wrap; /* Ensure the list items wrap properly */
+    justify-content: center; /* Center items */
+    gap: 20px;
 }
 
 .catalog ul li {
@@ -183,9 +188,11 @@ main {
     border: 2px solid #cc000000; /* Deep red border (Tatreez accent) */
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 20rem;
+    width: 18rem;
     vertical-align: top;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 25rem;/* Set a minimum height for all items */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
@@ -237,13 +244,14 @@ a:active {
 }
 
 .catalog ul li b {
-    font-size: 12px; /* Adjust the size to make the text smaller */
+    font-size: 13px; /* Adjust the size to make the text smaller */
     color: #ffffff; /* Keep the text white */
     font-weight: normal;
+    margin-bottom: 35%;
 }
 
 .book-cover {
-    width: 40%;  /* Adjust the width to be 50% of its container */
+    width: 50%;  /* Adjust the width to be 50% of its container */
     height: auto;
 }
 
@@ -252,7 +260,7 @@ a:active {
 /* Style for the book title */
 .book-title {
     color: #333333; /* Change the title color to black */
-    font-size: 13px; /* Adjust the font size as needed */
+    font-size: 16px; /* Adjust the font size as needed */
     font-weight: bold; /* Keep the bold style */
     margin-top: 0rem; /* Optional: Add some space above the title */
     margin-bottom: -1rem;
